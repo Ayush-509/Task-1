@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    position: relative;
+    top: 0px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    padding: 2px 15px;
+
+}
+
+.logo{
+    background-image: url("new-marvel-comics-logo-v0-r8e6rbljjy6d1.jpg");
+    width: 100px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+input{
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: 20vw;
+    margin-left: 25vw;
+    margin-right: 10vw;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a{
+    margin: 10px;
+}
+
+.footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.623);
+    position: relative;
+    top: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center{
+    margin: 0px 32vw;
+}
+
+.first{
+    background-image: linear-gradient(to bottom right,red,yellow);
+    width: 22.4vw;
+    height: 30vh;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.photo{
+    background-image: url("png-clipart-iron-man-illustration-thor-marvel-comics-iron-man-superhero-marvel-universe-ironman-comics-heroes-thumbnail-removebg-preview.png");
+    width: 15vw;
+    height: 32vh;
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-weight: 200;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+}
